@@ -2,6 +2,9 @@ Server side of chat messenger
 
 Changes:
 
+[commit 19.03.2022 22:55]
+- renamed main.ui to server.ui
+
 [commit 19.03.2022 22:48]
 - renamed log files from .log to .html
 - updated ServerUI with sys library

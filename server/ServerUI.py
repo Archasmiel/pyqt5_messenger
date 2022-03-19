@@ -6,7 +6,7 @@ from PyQt5 import uic
 from PyQt5.QtGui import QIcon
 
 
-UIFile = 'ui/main.ui'
+UIFile = 'ui/server.ui'
 
 
 class ServerUi(QMainWindow):
