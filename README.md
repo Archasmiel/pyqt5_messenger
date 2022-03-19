@@ -1,1 +1,0 @@
-# test_pyqt5
