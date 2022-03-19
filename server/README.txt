@@ -2,6 +2,10 @@ Server side of chat messenger
 
 Changes:
 
+[commit 19.03.2022 22:48]
+- renamed log files from .log to .html
+- updated ServerUI with sys library
+
 [commit 19.03.2022 22:41]
 - added README.txt for server side branch
 - removed README.md for merging easily

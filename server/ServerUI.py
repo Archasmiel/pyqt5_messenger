@@ -1,4 +1,5 @@
 import time
+import sys
 
 from PyQt5.QtWidgets import QMainWindow
 from PyQt5 import uic
@@ -37,7 +38,7 @@ class ServerUi(QMainWindow):
             except Exception:
                 self.update_log(f'Error server stopping', 'Error')
 
-        with open(rf'logs/log_{self.get_dmyhms_time_now()}.log', 'w') as f:
+        with open(rf'logs/log_{self.get_dmyhms_time_now()}.html', 'w') as f:
             f.write(self.server_log)
 
         sys.exit(0)
