@@ -1,0 +1,7 @@
+<i><font color="grey">[22:10:22]</font> <font color="#FFB72B">[Initial]</font> >> </i>Application loaded<br/>
+<i><font color="grey">[22:10:25]</font> <font color="red">[Error]</font> >> </i>Server is not running<br/>
+<i><font color="grey">[22:10:26]</font> <font color="#05595B">[Server]</font> >> </i>Started server<br/>
+<i><font color="grey">[22:10:28]</font> <font color="#11468F">[ServerCommand]</font> >> </i>Suggested command "asdasd"<br/>
+<i><font color="grey">[22:10:30]</font> <font color="red">[Error]</font> >> </i>Sorry, but server is already running<br/>
+<i><font color="grey">[22:10:32]</font> <font color="#05595B">[Server]</font> >> </i>Stopped server<br/>
+<i><font color="grey">[22:10:33]</font> <font color="red">[Error]</font> >> </i>Sorry, but server is already stopped<br/>
