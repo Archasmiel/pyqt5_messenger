@@ -4,9 +4,9 @@ import sys
 from PyQt5.QtWidgets import QMainWindow
 from PyQt5 import uic
 from PyQt5.QtGui import QIcon
+from server.ui.InfoUI import InfoUi
 
-
-UIFile = 'ui/server.ui'
+UIFile = r'assets/ui/server.ui'
 
 
 class ServerUi(QMainWindow):
@@ -76,10 +76,7 @@ class ServerUi(QMainWindow):
             self.lineEdit.setText('')
 
     def action_info_show(self):
-        pass
-
-    def action_contacts_show(self):
-        pass
+        self.info.show()
 
     #
     #    init methods
@@ -91,7 +88,7 @@ class ServerUi(QMainWindow):
 
     def init_window(self):
         # init window
-        self.setWindowIcon(QIcon("images/logo.png"))
+        self.setWindowIcon(QIcon("assets/images/logo.png"))
         self.setWindowTitle('Server')
         self.setFixedSize(792, 602)
 
@@ -120,8 +117,8 @@ class ServerUi(QMainWindow):
 
         # Info menu
         about = bar.addMenu('About')
-        about_menu = [about.addAction('Info'), about.addAction('Contacts')]
-        about_menu_actions = [self.action_info_show, self.action_contacts_show]
+        about_menu = [about.addAction('Info')]
+        about_menu_actions = [self.action_info_show]
 
         for n, m in enumerate(about_menu):
             m.triggered.connect(about_menu_actions[n])
@@ -139,6 +136,7 @@ class ServerUi(QMainWindow):
         }
         self.server_log = ''
         self.running = False
+        self.info = InfoUi()
 
         self.statusBar().showMessage('Application started')
         self.init()

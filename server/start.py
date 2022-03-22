@@ -1,7 +1,5 @@
 import sys
-
-from ServerUI import ServerUi
-
+from server.ui.ServerUI import ServerUi
 from PyQt5.QtWidgets import QApplication
 
 
