@@ -2,6 +2,15 @@ Server side of chat messenger
 
 Changes:
 
+[commit 22.03.2022 19:30]
+- added info to README.txt
+
+[commit 22.03.2022 19:16]
+- refactored file system
+- added InfoUI widget
+- improvements into ServerUI: added opening of InfoUI window
+- cleaned start.py
+
 [commit 19.03.2022 22:55]
 - renamed main.ui to server.ui
 
