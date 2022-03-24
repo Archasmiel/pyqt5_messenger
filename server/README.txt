@@ -2,6 +2,9 @@ Server side of chat messenger
 
 Changes:
 
+[commit 23.03.2022 22:43]
+- changed git settings
+
 [commit 22.03.2022 19:30]
 - added info to README.txt
 
